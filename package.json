@@ -4,7 +4,7 @@
   "description": "Technical test for an interview.",
   "main": "app.js",
   "scripts": {
-    "start": "./start.js",
+    "start": "node ./start.js",
     "watch": "nodemon ./start.js",
     "test": "mocha --recursive --exit"
   },
