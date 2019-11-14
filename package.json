@@ -2,9 +2,10 @@
   "name": "technical-test",
   "version": "1.0.0",
   "description": "Technical test for an interview.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "nodemon ./start.js",
+    "test": "mocha --recursive --exit"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   "homepage": "https://github.com/amarconi/technical-test#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
   }
 }
