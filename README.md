@@ -16,6 +16,12 @@ This project is using the following technologies:
 
 ## Running
 
+Clone project in any folder
+```git clone https://github.com/amarconi/technical-test.git```
+
+Navigate to this folder
+```cd technical-test```
+
 Install Dependencies
 ```npm install```
 
